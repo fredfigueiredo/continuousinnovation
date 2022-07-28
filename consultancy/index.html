@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -34,45 +35,30 @@
 </head>
 
 <body>
+
+    <!-- SECTION: Navigation area -->
     <nav class="navbar navbar-default" style="margin:0px">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
+                    <span class="navbar-brand">
                         <img alt="Brand" src="img/Sage_Logo_Brilliant_Green_RGB.png" width="60">
-                    </a>
+                    </span>
                 </div>
             </div>
-
-
-            <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">Our services</a></li>
-                    <li><a href="#">Case studies</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact us</a></li>
-                </ul>
-            </div>/.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
 
 
-
-    <div class="sbox bg-default hero height--md bs-layout-example">
+    <!-- SECTION: Hello, we are CI consultancy -->
+    <div class="sbox bg-default hero height--md">
         <div class="layout_1-col--wide">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="hero_content padding--xxl">
+                    <div class="hero_content padding--sm">
                         <div class="subtitle">Continuous Innovation</div>
-                        <h1 class="d4">Hello, we are the Continuous Innovation consultancy</h1>
+                        <h1 class="d4">Hello, we are the Continuous Innovation Consultancy</h1>
                         <p>Find out who we are and how we help colleagues to innovate.</p>
                         <div id="boxdefault" class="dynamic-box-content">
 
@@ -89,19 +75,23 @@
                                 data-target="#contactUsModal">
                                 Contact us
                             </button>
-                            <a target="_blank"
-                                href="https://sage365.sharepoint.com/:p:/r/sites/ContinuousInnovation/Shared%20Documents/Consultancy/Consultancy%20services/Continous_Innovation_Consultancy_Document_2022_MS01.pptx?d=wdedb9ce06fa64f6e9e67dd7c652d7ab5&csf=1&web=1&e=FBkSw1"><button
-                                    class="btn btn-link" type="button">Tell me more</button></a>
+                            <form style="display: inline" target="_blank"
+                                action="https://sage365.sharepoint.com/:p:/r/sites/ContinuousInnovation/Shared%20Documents/Consultancy/Consultancy%20services/Continous_Innovation_Consultancy_Document_2022_MS02.pptx?d=wcd951175bf3a4b9dba28c5a34ac4a7f8&csf=1&web=1&e=wod4Gq"
+                                method="get">
+                                <button class="btn btn-link" type="submit">Tell me more</button>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6" style="padding-top: 100px;">
-                    <img src="img/illustration.png" class="img-responsive" />
+                <div class="col-md-6">
+                    <img src="img/illustration.png" class="img-responsive" alt="Illustration" />
                 </div>
             </div>
         </div>
     </div>
 
+
+    <!-- SECTION: How we can support you -->
     <div class="sbox">
         <div class="layout_1-col--wide padding-y--xxl padding--xxxl">
             <header class="section-header text-center">
@@ -109,7 +99,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card card--solid card--shadow offerings-box">
-                            <div class="card_header  bg--black text-center offerings-header">
+                            <div class="card_header bg--black text-center offerings-header">
                                 <img src="img/innovationbydesign.svg" alt="icon">
                                 <h3 class="h4">Innovation by Design</h3>
                             </div>
@@ -134,7 +124,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card card--solid card--shadow offerings-box">
-                            <div class="card_header  bg--black text-center offerings-header"">
+                            <div class="card_header bg--black text-center offerings-header">
                                 <img src=" img/workshops.svg" alt="icon">
                                 <h3 class="h4">Design and facilitate customized workshops</h3>
                             </div>
@@ -159,7 +149,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card card--solid card--shadow offerings-box">
-                            <div class="card_header  bg--black text-center offerings-header"">
+                            <div class="card_header bg--black text-center offerings-header">
                                 <img src=" img/coaching.svg" alt="icon">
                                 <h3 class="h4">Coaching and mentoring teams</h3>
                             </div>
@@ -193,25 +183,29 @@
         </div>
     </div>
 
-
+    <!-- SECTION: How we flow -->
     <div class="sbox align--center bg-alternate">
         <header class="section-header text-center" style="padding-top: 70px;">
             <h2 class="ci-section-heading">How we flow to knock down barriers</h2>
         </header>
-        <div class="text-center"><img src="img/flow.png" width="85%" /></div>
+        <div class="text-center"><img src="img/flow.png" style="width:85%;" alt="Flow illustration" /></div>
 
     </div>
 
+    <!-- SECTION: Use cases -->
+    <a id="use_cases"></a>
     <div class="sbox align--center">
         <header class="section-header text-center" style="padding-top: 70px;">
             <h2 class="ci-section-heading">How we helped other colleagues at Sage</h2>
+
+            <!-- Sub-section: Use cases: Innovation by design-->
             <a id="use_case_innovation_by_design"></a>
             <div class="sbox bg-alternate">
                 <div class="layout_1-col" style="padding-top: 0px">
                     <div class="row showgrid text-center">
                         <div class="col-sm-12">
-                            <img src="img/innovationbydesign.svg" height="80px" alt="icon"
-                                style="margin-top:12px; margin-right:12px">
+                            <img src="img/innovationbydesign.svg" alt="icon"
+                                style="margin-top:12px; margin-right:12px; height:80px;">
                             &nbsp;
                             <h4 class="subtitle">Innovation by design</h4>
                         </div>
@@ -240,10 +234,10 @@
                                     </li>
 
                                 </ul>
-                                </p>
 
                                 <div class="row">
-                                    <div class="col-md-4"><img src="img/cora.jpeg" width="100%" /></div>
+                                    <div class="col-md-4"><img src="img/cora.jpeg" class="testimonial-photo"
+                                            alt="Cora Béghin" /></div>
                                     <div class="col-md-8">
 
                                         <blockquote>
@@ -267,22 +261,22 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="panel-image text-center"><img src="img/innovationbydesignusecase.png" alt="">
+                            <div class="panel-image text-center"><img src="img/innovationbydesignusecase.png"
+                                    alt="Innovation by design">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <a id="use_cases"></a>
-
+            <!-- Sub-section: Use cases: Workshops-->
             <a id="use_case_workshops"></a>
             <div class="sbox">
                 <div class="layout_1-col" style="padding-top: 0px">
                     <div class="row showgrid text-center">
                         <div class="col-sm-12">
-                            <img src="img/workshops.svg" height="80px" alt="icon"
-                                style="margin-top:12px; margin-right:12px">
+                            <img src="img/workshops.svg" alt="Workshops icon"
+                                style="margin-top:12px; margin-right:12px; height:80px;">
                             &nbsp;
                             <h4 class="subtitle">Design and facilitate customised workshops</h4>
                         </div>
@@ -314,10 +308,10 @@
                                         Created a high level plan of action
                                     </li>
                                 </ul>
-                                </p>
 
                                 <div class="row">
-                                    <div class="col-md-4"><img src="img/yess.jpeg" width="100%" /></div>
+                                    <div class="col-md-4"><img src="img/yess.jpeg" class="testimonial-photo"
+                                            alt="Yess Padilla" /></div>
                                     <div class="col-md-8">
 
                                         <blockquote>
@@ -345,14 +339,14 @@
                 </div>
             </div>
 
-
+            <!-- Sub-section: Use cases: Coaching & Mentoring-->
             <a id="use_case_coaching_and_mentoring"></a>
             <div class="sbox bg-alternate">
                 <div class="layout_1-col" style="padding-top: 0px">
                     <div class="row showgrid text-center">
                         <div class="col-sm-12">
-                            <img src="img/coaching.svg" height="80px" alt="icon"
-                                style="margin-top:12px; margin-right:12px">
+                            <img src="img/coaching.svg" alt="Coaching icon"
+                                style="margin-top:12px; margin-right:12px; height:80px;">
                             &nbsp;
                             <h4 class="subtitle">Coaching and mentoring teams</h4>
                         </div>
@@ -379,10 +373,10 @@
                                         Co-created a data driven plan of action.
                                     </li>
                                 </ul>
-                                </p>
 
                                 <div class="row">
-                                    <div class="col-md-4"><img src="img/mark.jpeg" width="100%" /></div>
+                                    <div class="col-md-4"><img src="img/mark.jpeg" class="testimonial-photo"
+                                            alt="Mark Norris" /></div>
                                     <div class="col-md-8">
 
                                         <blockquote>
@@ -417,43 +411,45 @@
 
 
 
-
+    <!-- SECTION: Statistics -->
     <div class="sbox align--center">
         <div class="layout_1-col--wide padding-y--xxl padding--xxxl">
             <div class="row">
                 <div class="col-md-6">
                     <div class="sbox">
                         <div class="row">
-                            <h2 class="text-center">
-                                24
+                            <h2 class="text-left">
+                                16+
                             </h2>
                         </div>
                         <div class="row">
-                            <h5 class="text-center">Innovation initiatives delivered</h5>
+                            <h5 class="text-left">Large-scale innovation initiatives delivered</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="sbox">
                         <div class="row">
-                            <h2 class="text-center">
-                                34
+                            <h2 class="text-left">
+                                20+
                             </h2>
                         </div>
                         <div class="row">
-                            <h5 class="text-center">Workshops designed and facilitated</h5>
+                            <h5 class="text-left">Tailormade workshops created & delivered</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="sbox">
                         <div class="row">
-                            <h2 class="text-center">
-                                1300+
-                            </h2>
+                            <div class="col-sm">
+                                <h2 class="text-left">
+                                    500+
+                                </h2>
+                            </div>
                         </div>
                         <div class="row">
-                            <h5 class="text-center">Colleagues empowered to innovate</h5>
+                            <h5 class="text-left">Colleagues empowered to innovate</h5>
                         </div>
                     </div>
                 </div>
@@ -461,6 +457,135 @@
         </div>
     </div>
 
+
+    <!-- SECTION: The team -->
+    <div class="sbox align--center bg-alternate">
+        <header class="section-header text-center" style="padding-top: 70px;">
+            <h2 class="ci-section-heading">The team</h2>
+            <div class="layout_1-col--wide padding-y--xxl">
+                <div class="flex_container flex-md">
+                    <div class="flex_item">
+                        <div class="colleague-item">
+                            <div class="card colleague-card">
+                                <div class="card_header text-center">
+                                    <img class="testimonial-photo" src="img/pieter.jpg" />
+                                    <h3 class="h5">Pieter Mulder</h3>
+                                </div>
+                                <div class="card_body text-center">
+                                    <p class="subtitle-sm">Business Innovation Coach</p>
+                                    <p>Coach.<br>Master of fun.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex_item">
+                        <div class="colleague-item">
+                            <div class="card colleague-card">
+                                <div class="card_header text-center">
+                                    <img class="testimonial-photo" src="img/flaminia.png" />
+                                    <h3 class="h5">Flaminia Del Conte</h3>
+                                </div>
+                                <div class="card_body text-center">
+                                    <p class="subtitle-sm">Business Innovation Coach</p>
+                                    <p>Strategic and Service Design.<br>Forró dancer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex_item">
+                        <div class="colleague-item">
+                            <div class="card colleague-card">
+                                <div class="card_header text-center">
+                                    <img class="testimonial-photo" src="img/maria.jpg" />
+                                    <h3 class="h5">María Alemán Peréz</h3>
+                                </div>
+                                <div class="card_body text-center">
+                                    <p class="subtitle-sm">Business Innovation Coach</p>
+                                    <p>Business Agility, Coaching.<br>Bollywood films.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex_item">
+                        <div class="colleague-item">
+                            <div class="card colleague-card">
+                                <div class="card_header text-center">
+                                    <img class="testimonial-photo" src="img/marcio.jpg" />
+                                    <h3 class="h5">Marcio Soriano</h3>
+                                </div>
+                                <div class="card_body text-center">
+                                    <p class="subtitle-sm">Business Innovation Coach</p>
+                                    <p>Innovation and Design Strategy.<br>Volleyball, house music.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex_item">
+                        <div class="colleague-item">
+                            <div class="card colleague-card">
+                                <div class="card_header text-center">
+                                    <img class="testimonial-photo" src="img/krzysztof.jpg" />
+                                    <h3 class="h5">Krzysztof Biliński</h3>
+                                </div>
+                                <div class="card_body text-center">
+                                    <p class="subtitle-sm">Business Innovation Coach</p>
+                                    <p class="">Co-creation, social innovation.<br>Funky slogans.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex_item">
+                        <div class="colleague-item">
+                            <div class="card colleague-card">
+                                <div class="card_header text-center">
+                                    <img class="testimonial-photo" src="img/marilisa.png" />
+                                    <h3 class="h5">Marilisa Andreano</h3>
+                                </div>
+                                <div class="card_body text-center">
+                                    <p class="subtitle-sm">Business Innovation Director</p>
+                                    <p>Business Agility, Lean Startup.<br>Pizza making.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex_item">
+                        <div class="colleague-item">
+                            <div class="card colleague-card">
+                                <div class="card_header text-center">
+                                    <img class="testimonial-photo" src="img/ian.jpeg" />
+                                    <h3 class="h5">Ian McKinley</h3>
+                                </div>
+                                <div class="card_body text-center">
+                                    <p class="subtitle-sm">Business Innovation Manager</p>
+                                    <p>Engaging facilitation.<br>Yoga.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex_item">
+                        <div class="colleague-item">
+                            <div class="card colleague-card">
+                                <div class="card_header text-center">
+                                    <img class="testimonial-photo" src="img/karim.jpeg" />
+                                    <h3 class="h5">Karim El Finti</h3>
+                                </div>
+                                <div class="card_body text-center">
+                                    <p class="subtitle-sm">Business Innovation Coach</p>
+                                    <p>I help teams innovate, change and grow.<br>Meeting new colleagues</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+
+    </div>
+
+    <!-- SECTION: Our mission -->
     <div class=" sbox bg-default hero align--center bg--cover height--lg"
         style="background-image: url('img/Continuous_Innovation_Infinite_Loop_4.png');">
         <div class="layout_1-col--wide">
@@ -468,10 +593,13 @@
                 <div class="col-md-8">
                     <div class="hero_content padding-x--xxl">
                         <div class="subtitle">Our mission</div>
-                        <h2>Instil an <strong>innovation mindset</strong> in the Sage Ecosystem through a
+                        <h2>Instil an <span class="mission-keyword">innovation mindset</span> in the Sage Ecosystem
+                            through
+                            a
                             human-centred
                             approach,
-                            empowering everyone to thrive.</h2>
+                            <span class="mission-keyword">empowering</span> everyone to thrive.
+                        </h2>
                     </div>
 
                 </div>
@@ -484,9 +612,11 @@
                                 data-target="#contactUsModal">
                                 Contact us
                             </button>
-                            <a target="_blank"
-                                href="https://sage365.sharepoint.com/:p:/r/sites/ContinuousInnovation/Shared%20Documents/Consultancy/Consultancy%20services/Continous_Innovation_Consultancy_Document_2022_MS01.pptx?d=wdedb9ce06fa64f6e9e67dd7c652d7ab5&csf=1&web=1&e=FBkSw1"><button
-                                    class="btn btn-link" type="button">Tell me more</button></a>
+                            <form style="display: inline" target="_blank"
+                                action="https://sage365.sharepoint.com/:p:/r/sites/ContinuousInnovation/Shared%20Documents/Consultancy/Consultancy%20services/Continous_Innovation_Consultancy_Document_2022_MS02.pptx?d=wcd951175bf3a4b9dba28c5a34ac4a7f8&csf=1&web=1&e=wod4Gq"
+                                method="get">
+                                <button class="btn btn-link" type="submit">Tell me more</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -494,28 +624,33 @@
         </div>
     </div>
 
-
+    <!-- SECTION: Contact us modal -->
     <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <form>
                 <div class="modal-content">
-                    <div class="modal-header">
+                    <!-- <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                                 aria-hidden="true">&times;</span></button>
                         <h3 class="modal-title" id="myModalLabel">Contact us</h3>
                         <div class="subtitle">We have made it really easy - all we need from you is your email address
                             and we will contact you to let you know what is next</div>
-                    </div>
-                    <div class="modal-body">
+                    </div> -->
+                    <p align="center" class="contactusform">
+                        <iframe
+                            src="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=fN0yPvZBLUmho8WOsCz0-F80CyNZ64tElphAz9kPcUdURVVQS1NTRFVHVTM5S0dNTk9YUUdFRjRTMiQlQCN0PWcu&embed=true"
+                            class="contact-us-iframe" allowfullscreen> </iframe>
+                    </p>
+                    <!-- <div class="modal-body">
                         <div class="form-group">
                             <label for="inputEmail">Your Sage email address</label>
                             <input type="email" class="form-control" id="inputEmail"
                                 placeholder="e.g. pieter.mulder@sage.com">
                         </div>
-                    </div>
+                    </div> -->
                     <div class="modal-footer">
                         <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-default">Send</button>
+                        <!-- <button type="submit" class="btn btn-default">Send</button> -->
                     </div>
                 </div>
             </form>
