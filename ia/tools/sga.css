@@ -1,0 +1,62 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+ ::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+  }
+  
+ ::-webkit-scrollbar-thumb {
+    background-color: #d4aa70;
+  }
+::-webkit-scrollbar-thumb {
+    background: #00e04a;
+  }
+
+@font-face {
+    font-family: sg-icon;
+    src: url('https://ux-repo.sage.com/sage-ui-icons.woff');
+}
+
+.sg-tool-st {
+    border: 2px solid transparent;
+}
+.sg-tool-stnew {
+    border: 2px solid #00e04a;
+}
+.d4 {font-size:1em}
+.btn-default--outline:focus, .btn-default--outline.focus, .btn-default--outline:focus:hover, .btn-default--outline:focus:focus,
+.btn-default--outline:focus, .btn-default--outline.focus, .btn-default--outline:focus:hover, .btn-default--outline:focus:focus
+ {color:initial !important;background-color: initial;border-color: initial;}
+
+ .btn-default--outline.active:focus, .btn-default--outline:active:focus:hover, .btn-default--outline:active:focus:focus {
+    color: #fff !important;
+    background-color: #5e5e5e;
+    text-decoration: none;
+    border-color: #5e5e5e;
+ }
+ .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+     outline:none;
+ }
+ .truncate {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.modal-header{
+    border-bottom: 1px solid transparent;
+}
+.modal-header .close span{
+    padding: 30px 15px;
+    font-size: 2em;
+    margin-top: -25px;
+    color: white;
+}
+.sg-tool { position:relative;margin-top:5px;margin-bottom:30px;}
+.sg-tool-is{ display:none;}
+.sg-tool-isnew{
+    display:block;font-size: 0.7em;
+    position:absolute;top:-20px;right:35px;z-index:1;color:#00e04a;
+    font-weight: bold;
+}

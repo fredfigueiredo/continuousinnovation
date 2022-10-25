@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Sage Innovation Academy</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/png" sizes="32x32" href="https://www.sage.com/Areas/SageDotCom/img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://www.sage.com/Areas/SageDotCom/img/favicon/favicon-16x16.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link href="https://fonts.sage.com/sage.css" rel="stylesheet" />
+		<link href="https://ux-repo.sage.com/stylesheets/sage-dls-custom.css" rel="stylesheet" />
+		<link href="sga.css" rel="stylesheet" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="main.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-KDR1XZP3GS"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-KDR1XZP3GS');
+		</script>
+	</head>
+	<body>
+		<div class="global-header">
+			<nav class="navbar navbar-default">
+				<!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><image src="https://continuousinnovation.info/ia/img/Sage_Logo_Brilliant_Green_RGB.png" width="60" height="34"></a>
+					</div>
+	
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">About</a></li>
+						</ul>
+						<form class="navbar-form navbar-right">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search here...">
+								<span class="input-group-btn">
+									<button type="submit" class="btn btn-default"><i class="sg-icon sg-icon--search"></i></button>
+								</span>
+							</div>
+						</form>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</nav>
+		</div>
+		<main class="docs-main">
+			<div class="sbox align--center theme-neutral bg--black">
+				<div class="layout_1-col--wide">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="panel-content padding--xxxl">
+								<h2 class="h2" style="font-weight: normal;">Tools to innovate</h2>
+								<p>Deal with complex design challenges with this open collection of tools, frameworks and tutorials.</p>
+								<div class="panel-content" style="padding-top:25px">
+									<p>You can count on our <a href="">community</a> and the trainers if you need any support with tools</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="panel-video">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe src="https://www.youtube.com/embed/815hy-RxL0g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="sbox" style="background: #F2F5F6;position:relative;">
+				<div class="layout_1-col--wide padding-y--xxl padding--xxxl" style="padding-top:10px;padding-right:45px;padding-left:45px">
+					<header class="section-header text-center">
+						<h2 style="margin-bottom: 10px;">Browse tools</h2>
+						<p style="margin-top:25px;margin-bottom: 50px;padding-top: 0px;padding-bottom: 0px;" class="sg-tools padding--xxxl">
+						</p>
+					</header>
+
+					<div class="row tools-container" id="sg-content">
+					</div>
+				</div>
+			</div>
+			
+		</main>
+
+		<footer class="footer footer--standard bs-layout-example">
+			<div class="footer-wrapper">
+				<div class="layout_1-col">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-12 col-md-4 footer_logos">
+								<div class="footer_logo"><a href="http://www.sage.com"><img src="https://continuousinnovation.info/ia/img/Sage_Logo_Brilliant_Green_RGB.png" width="80" alt="Sage"></a></div>
+								<ul class="footer_sns">
+									<li><a href="https://www.facebook.com/SageUK/" target="_blank"><i class="sg-icon sg-icon--facebook" aria-label="facebook"></i></a></li>
+									<li><a href="https://www.instagram.com/sageofficial/" target="_blank"><i class="sg-icon sg-icon--instagram" aria-label="instagram"></i></a></li>
+									<li><a href="https://www.linkedin.com/company/sage-software/" target="_blank"><i class="sg-icon sg-icon--linkedin" aria-label="linkedin"></i></a></li>
+									<li><a href="https://twitter.com/SageUK" target="_blank"><i class="sg-icon sg-icon--twitter" aria-label="twitter"></i></a></li>
+									<li><a href="https://www.youtube.com/user/SageUKOfficial" target="_blank"><i class="sg-icon sg-icon--youtube" aria-label="youtube"></i></a></li>
+									<li><a href="footer.html#" target="_blank"><i class="sg-icon sg-icon--google-plus" aria-label="googleplus"></i></a></li>
+								</ul>
+							</div>
+							<div class="col-sm-12 col-md-8 footer_links">
+								<div class="row footer_links-wrapper">
+									<div class="col-xs-6 col-sm-3">
+										<h6>PARTNERS</h6>
+										<ul>
+											<li><a href="https://www.sage.com/en-gb/partners/independent-software-vendors/">Developers &amp; ISVs</a></li>
+											<li><a href="https://www.sage.com/en-gb/partners/how-it-works/">Become a partner</a></li>
+											<li><a href="https://www.sage.com/en-gb/accountants/">Accountants &amp; bookkeepers</a></li>
+											<li><a href="footer.html#">Educators</a></li>
+											<li><a href="https://www.sage.com/marketplace">Sage Marketplace</a></li>
+										</ul>
+									</div>
+									<div class="col-xs-6 col-sm-3">
+										<h6>COMMUNITY</h6>
+										<ul>
+											<li><a href="footer.html#">Sage City</a></li>
+										</ul>
+										<h6>TRAINING</h6>
+										<ul>
+											<li><a href="http://www.sageu.com/uki/">Sage University</a></li>
+										</ul>
+									</div>
+									<div class="col-xs-6 col-sm-3">
+										<h6>SUPPORT</h6>
+										<ul>
+											<li><a href="https://www.sage.com/en-gb/blog/">Blog</a></li>
+											<li><a href="https://www.sage.com/en-gb/support/">Support center</a></li>
+											<li><a href="https://www.sage.com/en-gb/social/">Social media</a></li>
+										</ul>
+									</div>
+									<div class="col-xs-6 col-sm-3">
+										<h6>COMPANY</h6>
+										<ul>
+											<li><a href="footer.html#" target="_blank">Corporate site</a></li>
+											<li><a href="https://www.sage.com/en-gb/about-us/">About us</a></li>
+											<li><a href="https://www.sage.com/en-gb/about-us/contact-us/">Contact us</a></li>
+											<li><a href="https://www.sage.com/en-gb/social/">Social</a></li>
+											<li><a href="https://www.sage.com/en-gb/company/careers/">Careers</a></li>
+											<li><a href="https://www.sage.com/en-gb/news/">News</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 footer_selector">
+										<a role="button" data-toggle="modal" data-target="#selectorModal" href="footer.html#"><img src="http://icontest.sagedatacloud.com/flags/icon-globe-light-blue.svg" alt="globe icon" width="24" height="24">&nbsp; Canada&nbsp; |&nbsp; English&nbsp; <i class="sg-icon sg-icon--angle-down" aria-label="angledown"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul class="footer_nav">
+				<li class="footer_nav-item">
+					©2022 The Sage Group plc or its licensors. All rights reserved.
+				</li>
+				<li class="footer_nav-item">
+					<a href="https://www.sage.com/en-gb/legal/">Legal</a>
+				</li>
+				<li class="footer_nav-item">
+					<a href="https://www.sage.com/en-gb/legal/privacy-and-cookies/">Privacy notice and cookies</a>
+				</li>
+				<li class="footer_nav-item">
+					<a href="https://www.sage.com/en-gb/gdpr/">General data protection regulations</a>
+				</li>
+				<li class="footer_nav-item">
+					<a href="https://www.sage.com/investors/corporate-governance/anti-slavery-and-human-trafficking-statement/">Anti-slavery statement 2019</a>
+				</li>
+			</ul>
+		</footer>
+
+		<!-- Modal -->
+		<div class="modal fade" id="modal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				</div>
+
+				<div class="modal-content">
+					<div class="modal-body">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script id="tool-bt-template" type="template/sage-template">
+			<button type="A" class="btn btn-default--outline" data-tool="{{value}}" style="margin:10px 5px">{{value}}</button> 
+		</script>
+
+		<script id="tool-detail-template" type="template/sage-template">
+			<div style="display:flex;">
+				<div style="padding-right:80px;flex:1.2">
+
+					<h2 class="modal-title" style="margin-bottom:0px;">{{name}}</h2>
+					<div>Created by {{createdBy}}</div>
+
+					<div style="padding-top: 45px;padding-bottom:45px;">
+						<p>
+							<span class="d4">What is it?</span><br>
+							{{what}}
+						</p>
+						<p>
+							<span class="d4">Why is it important?</span><br/>
+							{{why}}
+						</p>
+						<p>
+							<span class="d4">Mindsets</span><br>
+							{{mindsets}}
+						</p>
+					</div>
+
+					<div class="row">
+						<div class="modal-footer" style="text-align:left;padding-left:0px;padding-bottom: 0px;">
+							<button type="button" class="btn btn-default--outline" data-dismiss="modal">
+								<span aria-hidden="true" class="sg-icon sg-icon--play sg-openmodal" style="cursor:pointer"></span>
+								Save for later
+							</button>
+							<button type="button" class="btn btn-default">
+								<span aria-hidden="true" class="sg-icon sg-icon--play sg-openmodal" style="cursor:pointer"></span>
+								Download tool
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div style="flex:1">
+					<div class="row sg-tool-media" style="text-align:right">
+					</div>
+					<div class="row" style="margin-top:25px">
+						<span class="d4">Examples</span><br>
+						<img style="max-width: 180px;margin-right:15px;" src="{{example1}}">
+						<img style="max-width: 180px;" src="{{example2}}">
+					</div>
+					<div class="row" style="margin-top:25px">
+						<img style="border-radius:50%;width:55px;" src="{{responsibleAvatarUrl}}">
+						<a href="">Chat with {{responsible}}</a> or <a href="">ask the community</a> about this tool
+					</div>
+				</div>
+			</div>
+		</script>
+		<script id="tool-template" type="template/sage-template">
+			<div class="col-md-3 sg-tool" style="" data-category="{{tags}}">
+				<div class="sg-tool-is{{status}}">
+					NEW
+				</div>
+				<div style="position:absolute;bottom:10px;right:35px;z-index:1">
+					<span aria-hidden="true" class="sg-icon sg-icon--play sg-openmodal" style="cursor:pointer"></span>
+				</div>
+				<div class="card card--solid card--shadow sg-tool-st{{status}}" style="padding:35px">
+					
+					<div class="theme-sm-biz">
+						<div><img src="{{thumbnailUrl}}" alt="{{name}}" style="max-width:100%"></div>
+
+						<div class="product-info" style="margin-top:20px;">
+							<div class="product-headings">
+								<div class="truncate">{{name}}</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</script>
+
+		<script id="tool-video-template" type="template/sage-template">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe src="{{value}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+			</div>
+		</script>
+
+		<script id="tool-img-template" type="template/sage-template">
+			<img style="max-width: 100%;" src="{{value}}" />
+		</script>
+
+	</body>
+</html>
