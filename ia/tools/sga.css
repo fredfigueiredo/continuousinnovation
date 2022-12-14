@@ -54,9 +54,66 @@
     color: white;
 }
 .sg-tool { position:relative;margin-top:5px;margin-bottom:30px;}
+.card--shadow:hover { cursor:pointer;box-shadow: 0 4px 10px hsl(229deg 5% 57% / 50%), 0 0.5px 0.6px hsl(229deg 5% 57% / 32%), 0 1.7px 1.9px -0.8px hsl(229deg 5% 57% / 32%), 0 4.2px 4.7px -1.7px hsl(229deg 5% 57% / 32%), 0 10.3px 11.6px -2.5px hsl(229deg 5% 57% / 32%) }
 .sg-tool-is{ display:none;}
 .sg-tool-isnew{
     display:block;font-size: 0.7em;
     position:absolute;top:-20px;right:35px;z-index:1;color:#00e04a;
     font-weight: bold;
+}
+.theme-sm-biz { text-align: center;}
+.btn-link {text-decoration: none;}
+.btn-link:hover, .btn-link-default:hover { background-color: transparent; }
+.sg-tool-wrap { display:flex;}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .sg-tool-wrap{
+        display:block !important;
+    }
+    .sg-tool-wrap-item{
+        padding-right: 0px !important;
+    }
+    .modal-footer {text-align: center !important;padding:0px !important;}
+    .btn { margin-bottom: 20px !important;}
+    .sg-tool-media{display:none !important;}
+    .sg-tool-media-min{display:block !important;margin-top: 30px;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    .sg-tool-wrap{
+        display:block !important;
+    }
+    .sg-tool-wrap-item{
+        padding-right: 0px !important;
+    }
+    .modal-footer {text-align: center !important;padding:0px !important;}
+    .btn { margin-bottom: 20px !important;}
+    .sg-tool-media{display:none !important;}
+    .sg-tool-media-min{display:block !important;margin-top: 30px;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+    .sg-tool-media{ margin-top:10px;}
+    .sg-tool-media-min{display:none !important; }
+    .btn-link { margin-right: 10px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 814px){ 
+    .sg-tool-media-min{display:none !important; }
+    .col-md-3 {width: 45%; display: inline-block; }
+}
+
+@media only screen and (min-width: 815px) and (max-width: 991px){ 
+    .sg-tool-media{ margin-top:10px;}
+    .sg-tool-media-min{display:none !important; }
+    .btn-link { margin-right: 10px;}
+    .col-md-3 {width: 33%; display: inline-block; }
+}
+
+@media only screen and (min-width: 992px){ 
+    .sg-tool-media{ margin-top:10px;}
+    .sg-tool-media-min{display:none !important; }
+    .btn-link { margin-right: 10px;}
+    .section-header{ margin-bottom:10px !important;}
 }

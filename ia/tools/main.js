@@ -1,6 +1,6 @@
 window.app = {
     config : {
-        pageSize : 4 //sets the number of tools to fetch at a time
+        pageSize : 8 //sets the number of tools to fetch at a time
     },
 
     data : {
